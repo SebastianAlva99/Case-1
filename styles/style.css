@@ -7,7 +7,7 @@ body{
     padding: 0;
     background-color: #ddd;
     font-family:sans-serif;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 h1{
@@ -47,3 +47,62 @@ a:hover{
     color: black;
 }
 
+/* main info */
+
+#wrapper-startsidan{
+
+    display: flex;
+}
+
+main{
+    flex:1;
+    background-color: #ddd;
+
+}
+
+aside{
+    flex: 1;
+    background-color: #ddd;
+    
+}
+
+main ul{
+    list-style-type:circle;
+
+}
+
+
+/* CSS för ul och li för startsidan */
+
+ul.level-1{
+    margin-left: 150px;
+    padding: 2rem;
+}
+
+ol.level-1{
+    margin-left: 100px;
+    padding: 2rem;
+}
+
+li.level-1{
+    margin-left: 100px;
+    padding: 2rem;
+}
+
+.padding{
+    margin: 2rem;
+}
+
+.none-style{
+    list-style: none;
+}
+
+ol li ol li{
+    list-style: circle;
+}
+
+#footer1{
+    margin: 0;
+    background-color: #39d;
+    padding: 2rem;
+}
