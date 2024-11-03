@@ -106,3 +106,96 @@ ol li ol li{
     background-color: #39d;
     padding: 2rem;
 }
+
+
+/* CSS FÖR LAND SIDAN */
+
+.iframe-style{
+    border: 3px solid black;
+    border-radius: 1em;
+    margin: 2rem;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+.iframe-style-2{
+    border: 3px solid black;
+    border-radius: 1em;
+    
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.02);
+}
+
+.display-land{
+    display: flex;
+
+}
+
+.land{
+    flex: 2;
+    background-color: #ddd;
+    padding: 0.5rem .5rem .1rem .5rem ;
+    margin: 1rem;
+
+}
+
+.land1{
+    flex:1;
+    background-color:#ddd;
+    padding: 1rem;
+    min-width: 200px;
+    margin: 1rem;
+    
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 2rem;
+    color: #39d;
+
+}
+
+p{
+    text-align: left;
+    padding: 1rem;
+}
+
+#p2{
+    margin-top: 1rem;
+}
+
+/* CSS for tables */
+
+.styled-table{
+    border-collapse: collapse;
+    margin: 220px 5rem;
+    font-size: 1em;
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #39d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th, .styled-table td{
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom: 2px solid #39d;
+}
