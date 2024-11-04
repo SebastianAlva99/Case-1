@@ -283,6 +283,7 @@ textarea{
 
 h2{
     margin-bottom: .5em;
+    text-align: center;
 }
 
 img{
@@ -333,4 +334,16 @@ img{
 
 .location-listing:hover .location-image img {
     filter: blur(2px);
+}
+
+video{
+    padding: 0;
+    margin: 50px 10px 50px 450px;
+    width: 1000px;
+    height: 600px;
+    border-width: 10px;
+    border: #000;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #000 ;
+    
 }
