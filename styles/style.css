@@ -208,7 +208,7 @@ p{
     font-weight: 700;
     color: rgb(2, 9, 152);
     padding: 1rem;
-    margin: 1rem;
+    margin: 10px 10px 10px 10px ;
     font-size: 24px;
 }
 
@@ -230,7 +230,7 @@ p{
 /* TEXTAREA CSS */
 
 textarea{
-    margin: 60px 10px 10px 600px ;
+    margin: 60px 10px 10px 100px ;
     padding: 2rem;
     width: 800px;
     border-color: #39d;
@@ -254,7 +254,7 @@ textarea{
 
 .form-design{
     padding: 1rem;
-    margin: 0 0 0 700px;
+    margin: 0 0 0 100px;
 }
 
 .label-design{
