@@ -107,6 +107,25 @@ ol li ol li{
     padding: 2rem;
 }
 
+.spain{
+    background-image: linear-gradient(red 33%,yellow 33%, yellow 66%, red 33%);
+}
+
+.peru{
+	background-image:linear-gradient(90deg,red 33%, white 33%, white 66.66%, red 66.66%);
+}
+
+.italy{
+	background-image:linear-gradient(90deg, green 33%, white 33%, white 66.66%, red 66.66%);
+}
+
+.flag{
+    width: 250px;
+    height: 170px;
+    margin: 20px 0 0 50px;
+    display: inline-block;
+    border: 1px solid #000;
+}
 
 /* CSS FÖR LAND SIDAN */
 
