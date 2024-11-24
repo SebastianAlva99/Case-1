@@ -309,6 +309,8 @@ img{
     padding: .5rem;
     width: 400px;
     height: 300px;
+    aspect-ratio: 1;
+    object-fit: contain;
     
 }
 
